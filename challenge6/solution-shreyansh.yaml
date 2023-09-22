@@ -1,0 +1,6 @@
+rules:
+- id: untitled_rule
+  pattern: RUN sudo ...
+  message: Semgrep found a match
+  languages: [docker]
+  severity: WARNING
