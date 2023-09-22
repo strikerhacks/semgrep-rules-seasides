@@ -1,0 +1,6 @@
+rules:
+- id: untitled_rule
+  pattern: jwt.encode(..., key='', algorithm='none')
+  message: Semgrep found a match
+  languages: [python]
+  severity: WARNING
