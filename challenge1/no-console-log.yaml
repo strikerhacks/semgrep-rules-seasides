@@ -1,0 +1,6 @@
+ules:
+- id: untitled_rule
+  pattern: console.log(...)
+  message: Semgrep found a match
+  languages: [javascript]
+  severity: WARNING
